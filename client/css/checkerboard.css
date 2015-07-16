@@ -1,0 +1,259 @@
+div.checkers_piece_red:after {
+	content: '\262F';
+	color: #BD4932;
+	width: 100%;	
+}
+
+div.checkers_piece_blue:after {
+	content: '\262F';
+	color: #285e8e;
+	width: 100%;
+}
+
+
+
+
+div.checkers_board div.checkers_square_light {
+	background-color: #ffffff;
+}
+div.checkers_board div.checkers_square_dark {
+	background-color: #e5e1d1;
+}
+/* The color of the light and dark squares when selected. */
+div.checkers_board div.checkers_square_light.checkers_square_selected {
+	background-color: #eeeeee;
+}
+div.checkers_board div.checkers_square_dark.checkers_square_selected  {
+	background-color: #c5c1a1;
+}
+
+.selectedPiece {
+	background-color: #F9FF4A;
+}
+
+
+div.checkers_board div.checkers_player_white {
+	color: #285e8e;
+}
+div.checkers_board div.checkers_player_black {
+	color: #BD4932;
+}
+
+div.checkers_board div.checkers_square_selected div.checkers_player_white {
+	color: #487eae;
+}
+div.checkers_board div.checkers_square_selected div.checkers_player_black {    
+	color: #dd6952;
+}
+
+
+/*div.checkers_board div.checkers_square_light.checkers_square_valid_move {
+background-color: #CDE855;
+}
+div.checkers_board div.checkers_square_dark.checkers_square_valid_move {
+background-color: #A7C520;
+}*/
+
+div.checkers_board div.checkers_square_light.checkers_square_valid_move {
+	-webkit-box-shadow: inset 0 0 3px 3px #CDE855;
+	-moz-box-shadow: inset 0 0 3px 3px #CDE855;
+	box-shadow: inset 0 0 3px 3px #CDE855;
+}
+div.checkers_board div.checkers_square_dark.checkers_square_valid_move {
+	-webkit-box-shadow: inset 0 0 3px 3px #A7C520;
+	-moz-box-shadow: inset 0 0 3px 3px #A7C520;
+	box-shadow: inset 0 0 3px 3px #A7C520;
+}
+
+
+div.checkers_board div.checkers_square {
+	-webkit-font-smoothing: antialiased;
+}
+
+
+div.checkers_board div.checkers_square {
+	cursor: pointer;
+}
+div.checkers_board div.checkers_piece_none {
+	cursor: auto;
+}
+
+
+
+div.checkers_board div.checkers_square_light > div.checkers_label {
+	color: #e5e1d1;
+}
+
+div.checkers_board div.checkers_square_dark > div.checkers_label {
+	color: #ffffff;
+}
+
+div.checkers_board div.checkers_label {
+	font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+
+/* checkers pieces with unicode characters */
+div.checkers_board div.checkers_player_black.checkers_piece_pawn:after {
+	content: '\262F';
+}
+div.checkers_board div.checkers_player_black.checkers_piece_rook:after {
+	content: '\265C';
+}
+div.checkers_board div.checkers_player_black.checkers_piece_knight:after {
+	content: '\265E';
+}
+div.checkers_board div.checkers_player_black.checkers_piece_bishop:after {
+	content: '\265D';
+}
+div.checkers_board div.checkers_player_black.checkers_piece_queen:after {
+	content: '\265B';
+}
+div.checkers_board div.checkers_player_black.checkers_piece_king:after {
+	content: '\265A';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_pawn:after {
+	content: '\262F';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_rook:after {
+	content: '\2656';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_knight:after {
+	content: '\2658';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_bishop:after {
+	content: '\2657';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_queen:after {
+	content: '\2655';
+}
+div.checkers_board div.checkers_player_white.checkers_piece_king:after {
+	content: '\2654';
+}
+
+
+
+/*
+div.checkers_board div.checkers_player_black.checkers_piece_pawn {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_black.checkers_piece_rook {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_black.checkers_piece_knight {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_black.checkers_piece_bishop {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_black.checkers_piece_queen {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_black.checkers_piece_king {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_pawn {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_rook {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_knight {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_bishop {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_queen {
+background-image: url('');
+}
+div.checkers_board div.checkers_player_white.checkers_piece_king {
+background-image: url('');
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+STRUCTURE
+
+*/
+
+div.checkers_board,
+div.checkers_board div.checkers_square,
+div.checkers_board div.checkers_square > div {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.checkers_board div.checkers_square { 
+	position: relative;
+	float: left;
+	width: 12.5%;
+
+	height: 12.5%; /* needs to be taken out and fixed some other way */
+	
+	z-index: 0;
+}
+
+div.checkers_board div.checkers_square_last_column {
+	float:    none;
+	overflow: hidden;
+	width:    auto !important;
+}
+
+div.checkers_board div.checkers_piece {    
+	text-align: center;
+	line-height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%
+}
+
+div.checkers_board div.checkers_piece:after {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+div.checkers_board div.checkers_label {
+	z-index: 0;
+	position: absolute;
+}
+
+div.checkers_board div.checkers_label_row,
+div.checkers_board div.checkers_label_column_reversed {
+	top: 2px;
+	left:	2px;
+}
+div.checkers_board div.checkers_label_column,
+div.checkers_board div.checkers_label_row_reversed {
+	bottom: 2px;
+	right:	2px;
+}
+
+
+div.checkers_board div.checkers_label_hidden {
+	visibility: hidden;
+}

@@ -58,14 +58,45 @@ body {
   visibility: hidden;
 }
 
-.headLineTag h1 {
-  font-size: 20px;
-  border-top: 3px solid red;
- 
+.brownSpace {
+  background-color: #976331;
 }
 
-.displayBox {
-    border-style: solid;
-    border-width: medium
+.whiteSpace {
+  background-color: #DCDBC5;
 }
+
+.clearMargin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#gameContainer {
+  border-style: solid;
+  border-color: green;
+}
+
+.selectPiece {
+  background-color: yellow;
+}
+
+.bluePiece {
+
+  /*
+  background-color: #0010DC;
+  border-radius: 50%; 
+  */
+}
+
+.blackPiece {
+  /*
+  background-color: black;
+  border-radius: 50%;
+  */
+}
+
+.selectedPiece {
+  background-color: #F9FF4A;
+}
+
 
